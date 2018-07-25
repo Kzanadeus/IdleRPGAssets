@@ -1,0 +1,601 @@
+fileFormatVersion: 2
+guid: 656a4e73b356add4b80665d47405b90a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_0
+    21300002: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_1
+    21300004: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_2
+    21300006: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_3
+    21300008: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_4
+    21300010: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_5
+    21300012: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_6
+    21300014: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_7
+    21300016: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_8
+    21300018: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_9
+    21300020: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_10
+    21300022: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_11
+    21300024: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_12
+    21300026: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_13
+    21300028: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_14
+    21300030: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_15
+    21300032: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_16
+    21300034: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_17
+    21300036: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_18
+    21300038: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_19
+    21300040: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_20
+    21300042: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_21
+    21300044: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_22
+    21300046: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_23
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbf992805f3e1645b970cb6dc15189c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 262
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d858004c3c8d42d47a77d8e2083c51c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 262
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280c29c9a793b9448b0415f49d8abec0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 262
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32110084d3a29d148b46efc928c927f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 262
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a737233cd8f47b54ea19780d78883692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 262
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf809bc3d7276c43924674dc0096b72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876a2213ae0c7044492dde323986e4b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 177
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1acb595e01f7f48863208487c918b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 177
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6331384e5d85b58498d15f305cfb3404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 177
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8236f504f65fa488b6f6db775c95c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 177
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ff500f8386e7449a98108783e9765d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 177
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b342348cf486046924f9f130d27644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c27b08cc25dddc42968065401d5fa21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 92
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15dabe74dc98ff4ba37dd13d5872ba4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 92
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1944448f5d99e6a4bb49d0fd1d486d0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 92
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc789cf2c4895448a99b7c4af8bb3e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 92
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2360a1af65f09ff41be57570e1a2a261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 92
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bac0b4f00b4c82498576f52c32d442c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e55154791f4ff498a1631c54b7c12b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 7
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d6c245e0f03564daff26061405924e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 7
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0b87801079c4a4da8086a0145681e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 7
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a579bc8b360daac4689bdaadaefb2caf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 7
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8824a479eae65cf42ab227d16c9b79a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bride-sprite-sheet-indie-opinion-videojuegos-zehngames_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 7
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8557b6027eef54a9302fb37db1551a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 378dbfc2fb1c7294b95cdfb51099720f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
