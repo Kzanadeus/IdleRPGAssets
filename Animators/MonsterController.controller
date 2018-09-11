@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: YellowSlimeController
+  m_Name: MonsterController
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -21,13 +21,13 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &1102329755861637642
+--- !u!1102 &1102207318561543078
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SlimeIdle
+  m_Name: FlyMan
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -40,19 +40,19 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a08d2d6ca041672419652f8b10a56ae5, type: 2}
+  m_Motion: {fileID: 7400000, guid: f058bccdf5d6b8748bbb55ad800eda6d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1102800394674856576
+--- !u!1102 &1102329755861637642
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Monster
+  m_Name: SlimeIdle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -83,7 +83,7 @@ AnimatorStateMachine:
     m_State: {fileID: 1102329755861637642}
     m_Position: {x: 348, y: 96, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102800394674856576}
+    m_State: {fileID: 1102207318561543078}
     m_Position: {x: 383, y: 161, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []

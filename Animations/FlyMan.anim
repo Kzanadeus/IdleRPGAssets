@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: CharacterRun
+  m_Name: FlyMan
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,20 +19,14 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 732306f690bb57e4fb3b6b2ac6c09cae, type: 3}
-    - time: 0.2
-      value: {fileID: 21300000, guid: a6b226b02d1b9b040b2925d6e83a5c36, type: 3}
-    - time: 0.4
-      value: {fileID: 21300000, guid: 984090fb2536a90429735a5f723c0e61, type: 3}
-    - time: 0.6
-      value: {fileID: 21300000, guid: e536799c1adc9b04cbc384a7ea659b7d, type: 3}
-    - time: 0.7
-      value: {fileID: 21300000, guid: e536799c1adc9b04cbc384a7ea659b7d, type: 3}
+      value: {fileID: 21300000, guid: f888aae345ac1e14e93f7c1b1e915140, type: 3}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: b6502e3747906e54d967de15d7237f03, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 10
+  m_SampleRate: 3
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -47,17 +41,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 732306f690bb57e4fb3b6b2ac6c09cae, type: 3}
-    - {fileID: 21300000, guid: a6b226b02d1b9b040b2925d6e83a5c36, type: 3}
-    - {fileID: 21300000, guid: 984090fb2536a90429735a5f723c0e61, type: 3}
-    - {fileID: 21300000, guid: e536799c1adc9b04cbc384a7ea659b7d, type: 3}
-    - {fileID: 21300000, guid: e536799c1adc9b04cbc384a7ea659b7d, type: 3}
+    - {fileID: 21300000, guid: f888aae345ac1e14e93f7c1b1e915140, type: 3}
+    - {fileID: 21300000, guid: b6502e3747906e54d967de15d7237f03, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8
+    m_StopTime: 0.6666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

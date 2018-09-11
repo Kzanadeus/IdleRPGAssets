@@ -49,7 +49,7 @@ public class CharacterControllerScript : MonoBehaviour {
     int spentAP = 0;
     int APGainPerLevel = 1;
 
-    int currentStrength = 1;
+    int currentStrength = 10;
     int StrengthAPNeeded = 1;
     int currentAgility = 1;
     int AgilityAPNeeded = 1;
@@ -209,6 +209,7 @@ public class CharacterControllerScript : MonoBehaviour {
         {
             GetComponent<Rigidbody2D>().isKinematic = false;
             isCollided = false;
+            anim.SetBool("Collision", false);
             canMove = true;
             CancelInvoke();
         }
@@ -221,7 +222,8 @@ public class CharacterControllerScript : MonoBehaviour {
             GetComponent<Rigidbody2D>().isKinematic = true;
             collider = collision.gameObject;
             isCollided = true;
-            InvokeRepeating("LaunchAttack", 0, currentAttackSpeed);
+            anim.SetBool("Collision", true);
+            InvokeRepeating("LaunchAttack", currentAttackSpeed, currentAttackSpeed);
             Stop();
         }
     }
