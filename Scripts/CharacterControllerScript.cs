@@ -194,9 +194,19 @@ public class CharacterControllerScript : MonoBehaviour {
         btn.ActivateLuck(currentAP >= LuckAPNeeded);
     }
 
+    public void die()
+    {
+        anim.SetBool("isDead", true);
+    }
+
+    public void resurect()
+    {
+        anim.SetBool("isDead", false);
+    }
+
     public void destroyedMonster(GameObject deadMonster)
     {
-        ChangeXP(deadMonster.gameObject.GetComponent<SlimeControllerScript>().XPGain);
+        ChangeXP(deadMonster.gameObject.GetComponent<MonsterControllerScript>().XPGain);
         monsterKillCount++;
         monsterLefToKillToGetAP -= 1;
         if(monsterLefToKillToGetAP == 0)
@@ -238,7 +248,7 @@ public class CharacterControllerScript : MonoBehaviour {
             damages = (int)Mathf.Ceil((float)damages * currentCriticalEffect);
             isCritical = true;
         }
-        collider.GetComponent<SlimeControllerScript>().TakeDamages(damages, isCritical);
+        collider.GetComponent<MonsterControllerScript>().TakeDamages(damages, isCritical);
     }
 
     void CreateText(Message message)
