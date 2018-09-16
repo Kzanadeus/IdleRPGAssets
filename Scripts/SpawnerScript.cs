@@ -24,6 +24,10 @@ public class SpawnerScript : MonoBehaviour {
 
     void Spawn()
     {
+        if(objs.Length == 0)
+        {
+            return;
+        }
         bool instantiate = false;
         if (ccs.canMove)
         {
