@@ -125,7 +125,7 @@ MonoBehaviour:
   statMinHP: 1
   statMaxHP: 10
   statDefense: 0
-  XPGain: 0
+  XPGain: 1
 --- !u!212 &212817416773016926
 SpriteRenderer:
   m_ObjectHideFlags: 1
