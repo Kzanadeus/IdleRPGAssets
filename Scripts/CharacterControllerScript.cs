@@ -49,7 +49,7 @@ public class CharacterControllerScript : MonoBehaviour {
     int spentAP = 0;
     int APGainPerLevel = 1;
 
-    int currentStrength = 10;
+    int currentStrength = 1;
     int StrengthAPNeeded = 1;
     int currentAgility = 1;
     int AgilityAPNeeded = 1;
@@ -235,6 +235,13 @@ public class CharacterControllerScript : MonoBehaviour {
             anim.SetBool("Collision", true);
             InvokeRepeating("LaunchAttack", currentAttackSpeed, currentAttackSpeed);
             Stop();
+        }
+        else if(collision.gameObject.tag == "Projectile")
+        {
+            // J'en prends plein la gueule.
+            collider = collision.gameObject;
+            Destroy(collider);
+            anim.SetTrigger("TakeHit");
         }
     }
 

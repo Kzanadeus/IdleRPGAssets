@@ -26,6 +26,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: stopAttack
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -138,7 +144,10 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: stopAttack
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102722426631717924}
   m_Solo: 0
@@ -183,7 +192,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ETZhombeDeath
+  m_Name: Death
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -297,10 +306,10 @@ AnimatorStateMachine:
     m_Position: {x: 372, y: 348, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102383680327296022}
-    m_Position: {x: 420, y: -84, z: 0}
+    m_Position: {x: 324, y: -60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102169069161877164}
-    m_Position: {x: 276, y: -192, z: 0}
+    m_Position: {x: 36, y: -180, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1101256597411641754}

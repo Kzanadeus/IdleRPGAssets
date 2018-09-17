@@ -85,8 +85,9 @@ public class MonsterControllerScript : MonoBehaviour {
         GameObject.FindObjectOfType<CharacterControllerScript>().destroyedMonster(this.gameObject);
         showPopup = false;
         gui.ChangeKillCount(1);
-        anim.SetTrigger("die");
-        Destroy(gameObject);
+        //anim.Play("death");
+        //yield return new WaitForSeconds(2f);
+        Destroy(this.gameObject);
     }
 	
 	// Update is called once per frame

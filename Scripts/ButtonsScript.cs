@@ -13,6 +13,8 @@ public class ButtonsScript : MonoBehaviour {
     public GameObject IntelligenceButton;
     public GameObject VitalityButton;
     public GameObject LuckButton;
+    public GameObject SPButton;
+    public GameObject MPButton;
 
     // Use this for initialization
     void Start () {
