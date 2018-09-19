@@ -18,17 +18,17 @@ public class ButtonsScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        StrengthButton.SetActive(false);
+        StrengthButton.SetActive(true);
         StrengthButton.GetComponent<Button>().onClick.AddListener(AddStrength);
-        AgilityButton.SetActive(false);
+        AgilityButton.SetActive(true);
         AgilityButton.GetComponent<Button>().onClick.AddListener(AddAgility);
-        DexterityButton.SetActive(false);
+        DexterityButton.SetActive(true);
         DexterityButton.GetComponent<Button>().onClick.AddListener(AddDexterity);
-        IntelligenceButton.SetActive(false);
+        IntelligenceButton.SetActive(true);
         IntelligenceButton.GetComponent<Button>().onClick.AddListener(AddIntelligence);
-        VitalityButton.SetActive(false);
+        VitalityButton.SetActive(true);
         VitalityButton.GetComponent<Button>().onClick.AddListener(AddVitality);
-        LuckButton.SetActive(false);
+        LuckButton.SetActive(true);
         LuckButton.GetComponent<Button>().onClick.AddListener(AddLuck);
 
         ccs = GameObject.FindGameObjectWithTag("Character").GetComponent<CharacterControllerScript>();

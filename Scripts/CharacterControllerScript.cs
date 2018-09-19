@@ -45,7 +45,7 @@ public class CharacterControllerScript : MonoBehaviour {
     int currentXP = 0;
     int nextLevelXP = 10;
 
-    int currentAP = 0;
+    public int currentAP = 0;
     int spentAP = 0;
     int APGainPerLevel = 1;
 
@@ -78,9 +78,8 @@ public class CharacterControllerScript : MonoBehaviour {
         anim = GetComponent<Animator>();
         gui = GameObject.Find("Main Camera").GetComponent<GUIScript>();
         btn = GameObject.Find("Main Camera").GetComponent<ButtonsScript>();
-
         currentPhysicalDamages = currentStrength;
-        ChangeAP(5);
+        ChangeAP(0);
     }
 
     public void ChangeXP(int amount)
